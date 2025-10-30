@@ -154,20 +154,21 @@
 # test.average(list1)
 # test.wish('Durga')
 
-# class employee:
-#     def __init__(self,eno,ename,esal):
-#         self.eno=eno
-#         self.ename=ename
-#         self.esal=esal
-#     def display(self):
-#         print('Employee number =',self.eno)
-#         print('Employee name =',self.ename)
-#         print('Employee salary =',self.esal)
-# class manager:
-#     def update(emp):
-#         emp.esal=emp.esal+10000
-#         emp.display()
-# emp=employee(101,'Suresh',12000)
-# manager.update(emp)
+class employee:
+    def __init__(self,eno,ename,esal):
+        self.eno=eno
+        self.ename=ename
+        self.esal=esal
+    def display(self):
+        print('Employee number =',self.eno)
+        print('Employee name =',self.ename)
+        print('Employee salary =',self.esal)
+class manager:
+    def update(emp):
+        emp.esal=emp.esal+10000
+        emp.display()
+ emp=employee(101,'Suresh',12000)
+ manager.update(emp)
+
 
 
