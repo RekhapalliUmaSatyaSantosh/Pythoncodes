@@ -2,6 +2,21 @@
 #     print(a+b)
 # add(10,20)
 
+def operations(a,b):
+    c=a+b
+    d=a-b
+    e=a*b
+    f=a/b
+    g=a//b
+    h=a%b
+    return c
+    return d
+    return e
+    return f
+    return h
+    return g
+print(add(10,20))
+
 # def sqrt(num):
 #     sqr=num*num
 #     print(f'the sqrt of {num} is {sqr}')
@@ -40,10 +55,10 @@
 # output=friends_in_trouble('angry','angry')
 # print(output)
 
-def transform_string(s):
-    if '_' in s:
-        parts = s.split('_', 1)
-        reversed_part1 = parts[0][::-1]
-        return reversed_part1 + '_' + parts[1]
-    else:
-        return s
+#def transform_string(s):
+  #  if '_' in s:
+ #       parts = s.split('_', 1)
+  #      reversed_part1 = parts[0][::-1]
+  #      return reversed_part1 + '_' + parts[1]
+#    else:
+  #      return s
