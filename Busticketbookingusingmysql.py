@@ -2,8 +2,8 @@ import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="santosh@1503",
-    database="santosh"
+    password="password",
+    database="dbname"
 )
 cursor=conn.cursor()
 def showbuses(From,To):
