@@ -158,8 +158,15 @@
 # s=input()
 # print(s[1:-1:1])
 
-n=int(input())
-for i in range(1,n+1):
-    for j in range(1,i+1):
-        print('*',end='')
-    print()
+# n=int(input())
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print('*',end='')
+#     print()
+
+l=[1,2,3,5,4,2,1,5,3]
+r=[]
+for i in l:
+    if i not in r:
+        r.append(i)
+print(r)
